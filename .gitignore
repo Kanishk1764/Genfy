@@ -1,0 +1,50 @@
+# Environment Variables
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Node
+node_modules/
+.npm/
+
+# Next.js
+.next/
+out/
+build/
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Databases
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Miscellaneous files generated
+out.txt
+output2.txt
+test_out.txt
+test_res.txt
+*.zip
+
+# Temp files
+*.bak
+*.tmp
+
+# User Uploads / Generated Images
+backend/exports/generated/*
+!backend/exports/generated/.gitkeep
+backend/exports/storyboard/*
+!backend/exports/storyboard/.gitkeep
