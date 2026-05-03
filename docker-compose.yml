@@ -1,0 +1,72 @@
+services:
+
+  # ── Nginx: the only container exposed to the internet ─────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: genfy-nginx
+    ports:
+      - "80:80"              # HTTP -> HTTPS redirect
+      - "443:443"            # HTTPS traffic
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro # Maps host certificates into container
+    depends_on:
+      - frontend
+    restart: unless-stopped
+    networks:
+      - genfy-net
+
+  # ── Backend (FastAPI / Uvicorn) ────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: genfy-backend
+    # Port 8005 kept open for direct debug access: http://genfyy.in:8005
+    ports:
+      - "8005:8001"
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      - BACKEND_URL=https://genfyy.in
+      - FRONTEND_URL=https://genfyy.in
+    volumes:
+      - ./backend/exports:/app/exports
+      - ./backend/data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s
+    networks:
+      - genfy-net
+
+  # ── Frontend (Next.js standalone) ─────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_GOOGLE_CLIENT_ID=1082848741339-qf6rrudot5p6cdc1r5ocr7j4r2lftor4.apps.googleusercontent.com
+        # Server-side rewrites go directly to backend container
+        - INTERNAL_BACKEND_URL=http://genfy-backend:8001
+    container_name: genfy-frontend
+    # Port 3005 kept open for direct debug access: http://genfyy.in:3005
+    ports:
+      - "3005:3001"
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_GOOGLE_CLIENT_ID=1082848741339-qf6rrudot5p6cdc1r5ocr7j4r2lftor4.apps.googleusercontent.com
+      - INTERNAL_BACKEND_URL=http://genfy-backend:8001
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - genfy-net
+
+networks:
+  genfy-net:
+    driver: bridge
+
