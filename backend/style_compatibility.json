@@ -1,0 +1,347 @@
+{
+  "compatibilityRules": {
+    "visualStyle": {
+      "Photorealistic": {
+        "medium": ["Digital Art", "Photography", "Mixed Media"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Dramatic", "Volumetric", "Moonlight", "Candlelight"],
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Extreme Close-Up", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"],
+        "lens": ["24mm Wide", "50mm Normal", "85mm Portrait", "135mm Telephoto", "Macro"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Melancholic", "Romantic", "Epic"],
+        "colorPalette": ["Vibrant", "Muted", "Earth Tones", "Warm Tones", "Cool Tones", "Monochrome"]
+      },
+      "Cinematic": {
+        "medium": ["Digital Art", "Photography", "Mixed Media"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Dramatic", "Volumetric", "Neon", "Moonlight"],
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"],
+        "lens": ["24mm Wide", "50mm Normal", "85mm Portrait", "135mm Telephoto", "Fisheye"],
+        "mood": ["Dramatic", "Mysterious", "Melancholic", "Epic", "Futuristic", "Romantic"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Cool Tones", "Warm Tones", "Neon/Cyber"]
+      },
+      "Anime": {
+        "medium": ["Digital Art", "Ink Drawing", "Mixed Media"],
+        "lighting": ["Neon", "Volumetric", "Dramatic", "Blue Hour", "Moonlight", "Studio"],
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Extreme Close-Up", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"],
+        "lens": ["50mm Normal", "85mm Portrait", "Macro", "Fisheye", "24mm Wide"],
+        "mood": ["Dramatic", "Ethereal", "Mysterious", "Futuristic", "Epic", "Romantic", "Melancholic"],
+        "colorPalette": ["Vibrant", "Pastel", "Neon/Cyber", "Cool Tones", "Monochrome"]
+      },
+      "Oil Painting": {
+        "medium": ["Acrylic", "Mixed Media", "Charcoal", "Digital Art"],
+        "lighting": ["Golden Hour", "Candlelight", "Dramatic", "Studio", "Moonlight"],
+        "composition": ["Centered", "Rule of Thirds", "Flat Lay"],
+        "cameraAngle": ["Centered", "Medium Shot", "Close-Up", "Wide Shot"],
+        "lens": ["50mm Normal", "85mm Portrait", "135mm Telephoto", "24mm Wide"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Melancholic", "Romantic", "Epic"],
+        "colorPalette": ["Vibrant", "Muted", "Earth Tones", "Warm Tones", "Monochrome"]
+      },
+      "Watercolor": {
+        "medium": ["Acrylic", "Mixed Media", "Charcoal", "Ink Drawing", "Digital Art"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Candlelight", "Moonlight"],
+        "composition": ["Centered", "Rule of Thirds", "Flat Lay", "Panoramic"],
+        "cameraAngle": ["Bird's Eye", "Medium Shot", "Close-Up", "Wide Shot", "Extreme Close-Up"],
+        "lens": ["50mm Normal", "85mm Portrait", "135mm Telephoto", "24mm Wide", "Macro"],
+        "mood": ["Serene", "Ethereal", "Melancholic", "Romantic"],
+        "colorPalette": ["Vibrant", "Muted", "Pastel", "Earth Tones", "Warm Tones", "Cool Tones"]
+      },
+      "Concept Art": {
+        "medium": ["Digital Art", "Mixed Media", "Acrylic", "Ink Drawing"],
+        "lighting": ["Dramatic", "Volumetric", "Neon", "Blue Hour", "Moonlight", "Golden Hour"],
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Wide Shot", "Low Angle"],
+        "lens": ["24mm Wide", "50mm Normal", "135mm Telephoto", "Fisheye"],
+        "mood": ["Dramatic", "Ethereal", "Mysterious", "Futuristic", "Epic", "Melancholic"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Neon/Cyber", "Cool Tones", "Earth Tones"]
+      },
+      "3D Render": {
+        "medium": ["Digital Art", "Mixed Media"],
+        "lighting": ["Studio", "Dramatic", "Neon", "Volumetric", "Blue Hour", "Golden Hour"],
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Extreme Close-Up", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"],
+        "lens": ["24mm Wide", "50mm Normal", "85mm Portrait", "135mm Telephoto", "Fisheye", "Macro"],
+        "mood": ["Dramatic", "Futuristic", "Mysterious", "Epic", "Serene"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Neon/Cyber", "Cool Tones", "Warm Tones"]
+      },
+      "Minimalist": {
+        "medium": ["Digital Art", "Photography", "Ink Drawing", "Mixed Media"],
+        "lighting": ["Studio", "Golden Hour", "Blue Hour"],
+        "composition": ["Centered", "Flat Lay", "Rule of Thirds"],
+        "cameraAngle": ["Centered", "Bird's Eye", "Medium Shot", "Extreme Close-Up"],
+        "lens": ["50mm Normal", "85mm Portrait", "135mm Telephoto", "Macro"],
+        "mood": ["Serene", "Ethereal", "Melancholic", "Mysterious"],
+        "colorPalette": ["Muted", "Monochrome", "Pastel", "Cool Tones"]
+      }
+    },
+    "medium": {
+      "Digital Art": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Watercolor", "Concept Art", "3D Render", "Minimalist"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Dramatic", "Neon", "Volumetric", "Moonlight", "Candlelight"],
+        "mood": ["Serene", "Dramatic", "Ethereal", "Mysterious", "Melancholic", "Futuristic", "Romantic", "Epic"],
+        "colorPalette": ["Vibrant", "Muted", "Pastel", "Monochrome", "Earth Tones", "Neon/Cyber", "Warm Tones", "Cool Tones"]
+      },
+      "Photography": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Minimalist"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Dramatic", "Neon", "Volumetric", "Moonlight", "Candlelight"],
+        "lens": ["24mm Wide", "50mm Normal", "85mm Portrait", "135mm Telephoto", "Macro", "Fisheye"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Melancholic", "Romantic", "Epic"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Earth Tones", "Warm Tones", "Cool Tones"]
+      },
+      "Charcoal": {
+        "visualStyle": ["Oil Painting", "Watercolor", "Concept Art", "Minimalist"],
+        "lighting": ["Studio", "Dramatic", "Candlelight", "Moonlight"],
+        "mood": ["Dramatic", "Mysterious", "Melancholic"],
+        "colorPalette": ["Muted", "Monochrome", "Earth Tones"]
+      },
+      "Ink Drawing": {
+        "visualStyle": ["Anime", "Watercolor", "Concept Art", "Minimalist", "Oil Painting"],
+        "lighting": ["Studio", "Dramatic", "Moonlight", "Candlelight", "Golden Hour"],
+        "mood": ["Dramatic", "Mysterious", "Ethereal", "Melancholic", "Futuristic"],
+        "colorPalette": ["Muted", "Monochrome", "Earth Tones", "Vibrant"]
+      },
+      "Acrylic": {
+        "visualStyle": ["Oil Painting", "Watercolor", "Concept Art"],
+        "lighting": ["Golden Hour", "Studio", "Dramatic", "Candlelight"],
+        "mood": ["Serene", "Dramatic", "Romantic", "Epic", "Melancholic"],
+        "colorPalette": ["Vibrant", "Muted", "Earth Tones", "Warm Tones", "Pastel"]
+      },
+      "Mixed Media": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Watercolor", "Concept Art", "3D Render", "Minimalist"],
+        "lighting": ["Golden Hour", "Blue Hour", "Studio", "Dramatic", "Neon", "Volumetric", "Moonlight", "Candlelight"],
+        "mood": ["Serene", "Dramatic", "Ethereal", "Mysterious", "Melancholic", "Futuristic", "Romantic", "Epic"],
+        "colorPalette": ["Vibrant", "Muted", "Pastel", "Monochrome", "Earth Tones", "Neon/Cyber", "Warm Tones", "Cool Tones"]
+      }
+    },
+    "lighting": {
+      "Golden Hour": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Oil Painting", "Watercolor", "Concept Art", "3D Render"],
+        "mood": ["Serene", "Dramatic", "Romantic", "Epic", "Ethereal"],
+        "colorPalette": ["Vibrant", "Warm Tones", "Earth Tones", "Muted"]
+      },
+      "Blue Hour": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Watercolor", "Concept Art", "3D Render"],
+        "mood": ["Mysterious", "Melancholic", "Ethereal", "Romantic", "Serene"],
+        "colorPalette": ["Muted", "Cool Tones", "Monochrome"]
+      },
+      "Studio": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "3D Render", "Minimalist"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Melancholic"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Cool Tones", "Warm Tones"]
+      },
+      "Dramatic": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Concept Art", "3D Render"],
+        "mood": ["Dramatic", "Mysterious", "Epic", "Melancholic"],
+        "colorPalette": ["Vibrant", "Muted", "Monochrome", "Warm Tones", "Cool Tones", "Earth Tones"]
+      },
+      "Neon": {
+        "visualStyle": ["Anime", "Cinematic", "Concept Art", "3D Render"],
+        "mood": ["Futuristic", "Dramatic", "Mysterious", "Epic"],
+        "colorPalette": ["Neon/Cyber", "Vibrant", "Cool Tones", "Monochrome"]
+      },
+      "Volumetric": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art", "3D Render"],
+        "mood": ["Ethereal", "Dramatic", "Mysterious", "Epic", "Futuristic"],
+        "colorPalette": ["Muted", "Cool Tones", "Warm Tones", "Monochrome"]
+      },
+      "Moonlight": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Watercolor", "Concept Art"],
+        "mood": ["Mysterious", "Ethereal", "Melancholic", "Romantic"],
+        "colorPalette": ["Muted", "Cool Tones", "Monochrome"]
+      },
+      "Candlelight": {
+        "visualStyle": ["Photorealistic", "Oil Painting", "Watercolor", "Cinematic"],
+        "mood": ["Romantic", "Mysterious", "Melancholic", "Serene"],
+        "colorPalette": ["Warm Tones", "Earth Tones", "Muted"]
+      }
+    },
+    "composition": {
+      "Centered": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Watercolor", "Concept Art", "3D Render", "Minimalist"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Extreme Close-Up", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"]
+      },
+      "Rule of Thirds": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Watercolor", "Concept Art", "3D Render", "Minimalist"],
+        "cameraAngle": ["Worm's Eye View", "Dutch Angle", "Bird's Eye", "Wide Shot", "Medium Shot", "Close-Up", "Low Angle"]
+      },
+      "Flat Lay": {
+        "visualStyle": ["Oil Painting", "Watercolor", "Minimalist"],
+        "cameraAngle": ["Bird's Eye"],
+        "mood": ["Serene", "Ethereal", "Romantic", "Mysterious"],
+        "lighting": ["Studio", "Golden Hour", "Blue Hour"]
+      },
+      "Panoramic": {
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Watercolor", "Concept Art", "3D Render"],
+        "cameraAngle": ["Wide Shot", "Bird's Eye", "Low Angle"],
+        "lens": ["24mm Wide", "Fisheye"]
+      }
+    },
+    "cameraAngle": {
+      "Worm's Eye View": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "mood": ["Dramatic", "Epic", "Mysterious", "Futuristic"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art", "3D Render"]
+      },
+      "Dutch Angle": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "mood": ["Dramatic", "Mysterious", "Epic"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art"]
+      },
+      "Bird's Eye": {
+        "composition": ["Centered", "Rule of Thirds", "Flat Lay", "Panoramic"],
+        "mood": ["Serene", "Ethereal", "Dramatic", "Epic", "Mysterious"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Watercolor", "Concept Art", "3D Render", "Minimalist"]
+      },
+      "Extreme Close-Up": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "mood": ["Dramatic", "Mysterious", "Melancholic", "Ethereal"],
+        "lens": ["Macro", "85mm Portrait", "135mm Telephoto"]
+      },
+      "Wide Shot": {
+        "composition": ["Rule of Thirds", "Panoramic", "Centered"],
+        "mood": ["Epic", "Serene", "Dramatic", "Ethereal"],
+        "lens": ["24mm Wide", "50mm Normal", "Fisheye"]
+      },
+      "Medium Shot": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Romantic", "Melancholic"],
+        "lens": ["50mm Normal", "85mm Portrait", "135mm Telephoto"]
+      },
+      "Close-Up": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "mood": ["Dramatic", "Romantic", "Mysterious", "Melancholic", "Ethereal"],
+        "lens": ["85mm Portrait", "135mm Telephoto", "Macro", "50mm Normal"]
+      },
+      "Low Angle": {
+        "composition": ["Centered", "Rule of Thirds", "Panoramic"],
+        "mood": ["Epic", "Dramatic", "Mysterious", "Futuristic"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art", "3D Render"]
+      }
+    },
+    "lens": {
+      "24mm Wide": {
+        "composition": ["Panoramic", "Rule of Thirds", "Centered"],
+        "cameraAngle": ["Wide Shot", "Worm's Eye View", "Bird's Eye", "Low Angle"],
+        "mood": ["Epic", "Ethereal", "Dramatic", "Futuristic", "Serene"]
+      },
+      "50mm Normal": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "cameraAngle": ["Medium Shot", "Wide Shot", "Close-Up"],
+        "mood": ["Serene", "Dramatic", "Mysterious", "Romantic", "Melancholic", "Ethereal", "Epic", "Futuristic"]
+      },
+      "85mm Portrait": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "cameraAngle": ["Medium Shot", "Close-Up", "Extreme Close-Up"],
+        "mood": ["Romantic", "Mysterious", "Serene", "Melancholic", "Dramatic"]
+      },
+      "135mm Telephoto": {
+        "composition": ["Centered", "Rule of Thirds"],
+        "cameraAngle": ["Medium Shot", "Close-Up", "Extreme Close-Up"],
+        "mood": ["Mysterious", "Melancholic", "Romantic", "Dramatic", "Ethereal"]
+      },
+      "Macro": {
+        "composition": ["Centered", "Flat Lay"],
+        "cameraAngle": ["Extreme Close-Up", "Bird's Eye"],
+        "mood": ["Ethereal", "Mysterious", "Serene"]
+      },
+      "Fisheye": {
+        "composition": ["Panoramic", "Centered"],
+        "cameraAngle": ["Wide Shot", "Worm's Eye View", "Bird's Eye"],
+        "mood": ["Dramatic", "Futuristic", "Epic", "Mysterious"],
+        "visualStyle": ["Cinematic", "Anime", "Concept Art", "3D Render"]
+      }
+    },
+    "mood": {
+      "Serene": {
+        "lighting": ["Golden Hour", "Studio", "Blue Hour", "Candlelight"],
+        "colorPalette": ["Muted", "Pastel", "Earth Tones", "Warm Tones", "Cool Tones"],
+        "visualStyle": ["Photorealistic", "Oil Painting", "Watercolor", "Minimalist", "Cinematic"]
+      },
+      "Dramatic": {
+        "lighting": ["Dramatic", "Studio", "Volumetric", "Golden Hour", "Neon"],
+        "colorPalette": ["Vibrant", "Monochrome", "Cool Tones", "Warm Tones", "Muted"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Concept Art", "3D Render"]
+      },
+      "Ethereal": {
+        "lighting": ["Blue Hour", "Volumetric", "Moonlight", "Golden Hour"],
+        "colorPalette": ["Pastel", "Muted", "Cool Tones", "Monochrome"],
+        "visualStyle": ["Anime", "Watercolor", "Concept Art", "Minimalist", "Cinematic"]
+      },
+      "Mysterious": {
+        "lighting": ["Dramatic", "Moonlight", "Candlelight", "Blue Hour", "Volumetric"],
+        "colorPalette": ["Muted", "Monochrome", "Cool Tones", "Earth Tones"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Concept Art"]
+      },
+      "Melancholic": {
+        "lighting": ["Blue Hour", "Moonlight", "Dramatic", "Candlelight", "Studio"],
+        "colorPalette": ["Muted", "Monochrome", "Cool Tones", "Earth Tones"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Oil Painting", "Watercolor", "Anime", "Concept Art"]
+      },
+      "Futuristic": {
+        "lighting": ["Neon", "Volumetric", "Blue Hour", "Studio", "Dramatic"],
+        "colorPalette": ["Neon/Cyber", "Cool Tones", "Monochrome", "Vibrant"],
+        "visualStyle": ["Anime", "Cinematic", "Concept Art", "3D Render"]
+      },
+      "Romantic": {
+        "lighting": ["Golden Hour", "Candlelight", "Moonlight", "Blue Hour"],
+        "colorPalette": ["Warm Tones", "Pastel", "Vibrant", "Muted"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Oil Painting", "Watercolor", "Anime"]
+      },
+      "Epic": {
+        "lighting": ["Dramatic", "Volumetric", "Golden Hour", "Neon", "Blue Hour"],
+        "colorPalette": ["Vibrant", "Monochrome", "Cool Tones", "Warm Tones", "Earth Tones"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art", "3D Render", "Oil Painting"]
+      }
+    },
+    "colorPalette": {
+      "Vibrant": {
+        "lighting": ["Golden Hour", "Studio", "Neon", "Dramatic"],
+        "mood": ["Dramatic", "Epic", "Futuristic", "Serene"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Oil Painting", "Concept Art", "3D Render"]
+      },
+      "Muted": {
+        "lighting": ["Blue Hour", "Moonlight", "Candlelight", "Golden Hour", "Studio", "Dramatic", "Volumetric"],
+        "mood": ["Serene", "Mysterious", "Melancholic", "Ethereal"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Oil Painting", "Watercolor", "Concept Art", "Minimalist", "Anime"]
+      },
+      "Pastel": {
+        "lighting": ["Golden Hour", "Studio", "Blue Hour", "Candlelight"],
+        "mood": ["Serene", "Ethereal", "Romantic"],
+        "visualStyle": ["Anime", "Watercolor", "Minimalist"],
+        "medium": ["Digital Art", "Acrylic", "Mixed Media"]
+      },
+      "Monochrome": {
+        "lighting": ["Studio", "Dramatic", "Moonlight", "Blue Hour", "Volumetric"],
+        "mood": ["Dramatic", "Mysterious", "Melancholic", "Ethereal"],
+        "medium": ["Digital Art", "Photography", "Charcoal", "Ink Drawing", "Mixed Media"]
+      },
+      "Earth Tones": {
+        "lighting": ["Golden Hour", "Candlelight", "Studio", "Dramatic"],
+        "mood": ["Serene", "Mysterious", "Melancholic", "Romantic"],
+        "visualStyle": ["Photorealistic", "Oil Painting", "Watercolor", "Cinematic", "Concept Art"]
+      },
+      "Neon/Cyber": {
+        "lighting": ["Neon", "Volumetric", "Blue Hour", "Dramatic", "Studio"],
+        "mood": ["Futuristic", "Dramatic", "Mysterious", "Epic"],
+        "visualStyle": ["Anime", "Cinematic", "Concept Art", "3D Render"],
+        "medium": ["Digital Art", "Mixed Media", "Photography", "Ink Drawing"]
+      },
+      "Warm Tones": {
+        "lighting": ["Golden Hour", "Candlelight", "Dramatic", "Studio"],
+        "mood": ["Serene", "Romantic", "Epic", "Dramatic"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Oil Painting", "Watercolor", "Concept Art", "3D Render"]
+      },
+      "Cool Tones": {
+        "lighting": ["Blue Hour", "Moonlight", "Studio", "Volumetric", "Neon", "Dramatic"],
+        "mood": ["Mysterious", "Melancholic", "Ethereal", "Futuristic", "Dramatic", "Epic"],
+        "visualStyle": ["Photorealistic", "Cinematic", "Anime", "Concept Art", "3D Render", "Minimalist"]
+      }
+    }
+  },
+  "_meta": {
+    "version": "1.0",
+    "description": "Compatibility matrix for our image generation app. For each selected option, the rules define which values are permitted in other categories. When multiple categories are selected, apply intersection logic — the final allowed set for any category is the intersection of all constraints targeting it.",
+    "usage": "When a user selects option X in category A, filter all other categories to only show values present in compatibilityRules[A][X][targetCategory]. When multiple options are selected across categories, intersect the allowed sets before rendering.",
+    "categories": ["visualStyle", "medium", "lighting", "composition", "cameraAngle", "lens", "mood", "colorPalette"]
+  }
+}
