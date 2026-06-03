@@ -1,0 +1,154 @@
+{
+  "recipes": [
+    {
+      "name": "Blade Runner",
+      "desc": "Dark neon cinema, rain-soaked streets",
+      "gradient": ["#0a0a2e", "#ff00ff", "#00ffff"],
+      "config": { "style": "cinematic", "medium": "digital", "lighting": "neon", "composition": "rule-thirds", "camera": "low-angle", "lens": "24mm", "mood": "futuristic", "color": "neon-cyber" }
+    },
+    {
+      "name": "Studio Ghibli",
+      "desc": "Dreamy pastoral anime",
+      "gradient": ["#87CEEB", "#FFB7C5", "#98FB98"],
+      "config": { "style": "anime", "medium": "digital", "lighting": "golden", "composition": "rule-thirds", "camera": "wide-shot", "lens": "50mm", "mood": "ethereal", "color": "pastel" }
+    },
+    {
+      "name": "National Geographic",
+      "desc": "Epic nature photography",
+      "gradient": ["#FFD700", "#228B22", "#87CEEB"],
+      "config": { "style": "photorealistic", "medium": "photography", "lighting": "golden", "composition": "rule-thirds", "camera": "wide-shot", "lens": "135mm", "mood": "epic", "color": "vibrant" }
+    },
+    {
+      "name": "Film Noir",
+      "desc": "High-contrast mystery shadows",
+      "gradient": ["#0a0a0a", "#333333", "#888888"],
+      "config": { "style": "cinematic", "medium": "photography", "lighting": "dramatic", "composition": "centered", "camera": "close-up", "lens": "85mm", "mood": "mysterious", "color": "monochrome" }
+    },
+    {
+      "name": "Dreamy Portrait",
+      "desc": "Soft romantic paint strokes",
+      "gradient": ["#FFDEE2", "#B5EAD7", "#C7CEEA"],
+      "config": { "style": "watercolor", "medium": "digital", "lighting": "blue-hour", "composition": "centered", "camera": "medium-shot", "lens": "85mm", "mood": "romantic", "color": "pastel" }
+    },
+    {
+      "name": "Cyberpunk City",
+      "desc": "Electric neon metropolis",
+      "gradient": ["#1a0033", "#ff00ff", "#00ffff"],
+      "config": { "style": "3d-render", "medium": "digital", "lighting": "neon", "composition": "panoramic", "camera": "dutch", "lens": "24mm", "mood": "futuristic", "color": "neon-cyber" }
+    },
+    {
+      "name": "Renaissance",
+      "desc": "Classical candlelit mastery",
+      "gradient": ["#8B4513", "#D2691E", "#FFD700"],
+      "config": { "style": "oil-paint", "medium": "acrylic", "lighting": "candlelight", "composition": "centered", "camera": "medium-shot", "lens": "50mm", "mood": "dramatic-mood", "color": "earth" }
+    },
+    {
+      "name": "Minimalist Product",
+      "desc": "Clean studio commercial",
+      "gradient": ["#f5f5f5", "#e0e0e0", "#cccccc"],
+      "config": { "style": "minimalist", "medium": "photography", "lighting": "studio", "composition": "flat-lay", "camera": "birds-eye", "lens": "macro", "mood": "serene", "color": "muted" }
+    },
+    {
+      "name": "Horror Poster",
+      "desc": "Dark chilling moonlit dread",
+      "gradient": ["#0B0C10", "#1F2833", "#C0392B"],
+      "config": { "style": "concept-art", "medium": "digital", "lighting": "moonlight", "composition": "rule-thirds", "camera": "low-angle", "lens": "24mm", "mood": "mysterious", "color": "cool" }
+    },
+    {
+      "name": "Vintage Warm",
+      "desc": "Nostalgic golden-hour glow",
+      "gradient": ["#FF6B35", "#FF8C42", "#FFC857"],
+      "config": { "style": "photorealistic", "medium": "photography", "lighting": "golden", "composition": "rule-thirds", "camera": "medium-shot", "lens": "50mm", "mood": "romantic", "color": "warm" }
+    },
+    {
+      "name": "Akira",
+      "desc": "Japanese cyberpunk action",
+      "gradient": ["#C0392B", "#0a0a2e", "#E74C3C"],
+      "config": { "style": "anime", "medium": "digital", "lighting": "neon", "composition": "rule-thirds", "camera": "dutch", "lens": "24mm", "mood": "epic", "color": "neon-cyber" }
+    },
+    {
+      "name": "Wes Anderson",
+      "desc": "Symmetrical pastel perfection",
+      "gradient": ["#FADADD", "#FFE4B5", "#B0E0E6"],
+      "config": { "style": "cinematic", "medium": "photography", "lighting": "studio", "composition": "centered", "camera": "medium-shot", "lens": "50mm", "mood": "serene", "color": "pastel" }
+    },
+    {
+      "name": "Heroic Comic",
+      "desc": "Bold epic low-angle power",
+      "gradient": ["#1A1A2E", "#E94560", "#FFD700"],
+      "config": { "style": "concept-art", "medium": "digital", "lighting": "dramatic", "composition": "centered", "camera": "worms-eye", "lens": "24mm", "mood": "epic", "color": "vibrant" }
+    },
+    {
+      "name": "Lo-fi Chill",
+      "desc": "Cozy muted indie aesthetic",
+      "gradient": ["#5D6D7E", "#85929E", "#AEB6BF"],
+      "config": { "style": "minimalist", "medium": "digital", "lighting": "blue-hour", "composition": "centered", "camera": "medium-shot", "lens": "50mm", "mood": "melancholic", "color": "muted" }
+    },
+    {
+      "name": "Enchanted Forest",
+      "desc": "Magical volumetric light beams",
+      "gradient": ["#0D3B0D", "#1E6B1E", "#90EE90"],
+      "config": { "style": "concept-art", "medium": "digital", "lighting": "volumetric", "composition": "rule-thirds", "camera": "wide-shot", "lens": "24mm", "mood": "ethereal", "color": "earth" }
+    },
+    {
+      "name": "Street Photography",
+      "desc": "Raw candid urban moments",
+      "gradient": ["#2C3E50", "#7F8C8D", "#ECF0F1"],
+      "config": { "style": "photorealistic", "medium": "photography", "lighting": "blue-hour", "composition": "rule-thirds", "camera": "medium-shot", "lens": "50mm", "mood": "melancholic", "color": "muted" }
+    },
+    {
+      "name": "Solarpunk",
+      "desc": "Bright green futuristic utopia",
+      "gradient": ["#2ECC71", "#F1C40F", "#87CEEB"],
+      "config": { "style": "concept-art", "medium": "digital", "lighting": "golden", "composition": "panoramic", "camera": "wide-shot", "lens": "24mm", "mood": "serene", "color": "vibrant" }
+    },
+    {
+      "name": "Dark Fantasy",
+      "desc": "Gothic otherworldly epic",
+      "gradient": ["#0A0A1A", "#4A0E4E", "#8B0000"],
+      "config": { "style": "oil-paint", "medium": "digital", "lighting": "moonlight", "composition": "rule-thirds", "camera": "low-angle", "lens": "24mm", "mood": "epic", "color": "cool" }
+    },
+    {
+      "name": "Manga Panel",
+      "desc": "Dynamic ink-line action",
+      "gradient": ["#0D0D0D", "#1A1A1A", "#F5F5F0"],
+      "config": { "style": "anime", "medium": "ink", "lighting": "dramatic", "composition": "rule-thirds", "camera": "dutch", "lens": "50mm", "mood": "dramatic-mood", "color": "monochrome" }
+    },
+    {
+      "name": "Golden Portrait",
+      "desc": "Warm sunset intimacy",
+      "gradient": ["#FF8C42", "#FFD700", "#FFF8DC"],
+      "config": { "style": "photorealistic", "medium": "photography", "lighting": "golden", "composition": "centered", "camera": "close-up", "lens": "85mm", "mood": "romantic", "color": "warm" }
+    },
+    {
+      "name": "Sci-Fi Concept",
+      "desc": "Vast alien worlds",
+      "gradient": ["#0a0a2e", "#4B0082", "#00CED1"],
+      "config": { "style": "concept-art", "medium": "digital", "lighting": "volumetric", "composition": "panoramic", "camera": "wide-shot", "lens": "24mm", "mood": "epic", "color": "cool" }
+    },
+    {
+      "name": "Macro Nature",
+      "desc": "Extreme detail natural beauty",
+      "gradient": ["#2E8B57", "#98FB98", "#F0FFF0"],
+      "config": { "style": "photorealistic", "medium": "photography", "lighting": "golden", "composition": "centered", "camera": "extreme-cu", "lens": "macro", "mood": "serene", "color": "vibrant" }
+    },
+    {
+      "name": "Noir Detective",
+      "desc": "Rainy night investigation",
+      "gradient": ["#0a0a0a", "#1C2951", "#C0C0C0"],
+      "config": { "style": "cinematic", "medium": "photography", "lighting": "moonlight", "composition": "rule-thirds", "camera": "medium-shot", "lens": "50mm", "mood": "mysterious", "color": "cool" }
+    },
+    {
+      "name": "Watercolor Dream",
+      "desc": "Soft flowing paint washes",
+      "gradient": ["#B5EAD7", "#FFDAC1", "#C7CEEA"],
+      "config": { "style": "watercolor", "medium": "collage", "lighting": "golden", "composition": "rule-thirds", "camera": "wide-shot", "lens": "50mm", "mood": "ethereal", "color": "pastel" }
+    },
+    {
+      "name": "Retro Arcade",
+      "desc": "80s neon game aesthetic",
+      "gradient": ["#FF1493", "#8B00FF", "#00BFFF"],
+      "config": { "style": "3d-render", "medium": "digital", "lighting": "neon", "composition": "centered", "camera": "medium-shot", "lens": "50mm", "mood": "futuristic", "color": "neon-cyber" }
+    }
+  ]
+}
