@@ -1,0 +1,114 @@
+{
+  "pairScores": {
+    "Photorealistic|Digital Art": 85, "Photorealistic|Photography": 98, "Photorealistic|Charcoal": 20, "Photorealistic|Ink Drawing": 15, "Photorealistic|Acrylic": 18, "Photorealistic|Mixed Media": 55,
+    "Photorealistic|Golden Hour": 95, "Photorealistic|Blue Hour": 90, "Photorealistic|Studio": 92, "Photorealistic|Dramatic": 88, "Photorealistic|Neon": 45, "Photorealistic|Volumetric": 82, "Photorealistic|Moonlight": 85, "Photorealistic|Candlelight": 78,
+    "Photorealistic|Centered": 88, "Photorealistic|Rule of Thirds": 95, "Photorealistic|Flat Lay": 60, "Photorealistic|Panoramic": 90,
+    "Photorealistic|Serene": 85, "Photorealistic|Dramatic": 88, "Photorealistic|Ethereal": 55, "Photorealistic|Mysterious": 80, "Photorealistic|Melancholic": 78, "Photorealistic|Futuristic": 40, "Photorealistic|Romantic": 82, "Photorealistic|Epic": 90,
+    "Photorealistic|Vibrant": 85, "Photorealistic|Muted": 88, "Photorealistic|Pastel": 35, "Photorealistic|Monochrome": 80, "Photorealistic|Earth Tones": 90, "Photorealistic|Neon/Cyber": 30, "Photorealistic|Warm Tones": 88, "Photorealistic|Cool Tones": 85,
+
+    "Cinematic|Digital Art": 90, "Cinematic|Photography": 92, "Cinematic|Charcoal": 25, "Cinematic|Ink Drawing": 20, "Cinematic|Acrylic": 22, "Cinematic|Mixed Media": 60,
+    "Cinematic|Golden Hour": 88, "Cinematic|Blue Hour": 85, "Cinematic|Studio": 78, "Cinematic|Dramatic": 95, "Cinematic|Neon": 88, "Cinematic|Volumetric": 92, "Cinematic|Moonlight": 85, "Cinematic|Candlelight": 65,
+    "Cinematic|Centered": 82, "Cinematic|Rule of Thirds": 95, "Cinematic|Flat Lay": 20, "Cinematic|Panoramic": 90,
+    "Cinematic|Serene": 55, "Cinematic|Dramatic": 95, "Cinematic|Ethereal": 60, "Cinematic|Mysterious": 92, "Cinematic|Melancholic": 82, "Cinematic|Futuristic": 85, "Cinematic|Romantic": 70, "Cinematic|Epic": 95,
+    "Cinematic|Vibrant": 78, "Cinematic|Muted": 88, "Cinematic|Pastel": 20, "Cinematic|Monochrome": 85, "Cinematic|Earth Tones": 55, "Cinematic|Neon/Cyber": 88, "Cinematic|Warm Tones": 75, "Cinematic|Cool Tones": 82,
+
+    "Anime|Digital Art": 95, "Anime|Photography": 15, "Anime|Charcoal": 20, "Anime|Ink Drawing": 82, "Anime|Acrylic": 30, "Anime|Mixed Media": 65,
+    "Anime|Golden Hour": 60, "Anime|Blue Hour": 72, "Anime|Studio": 70, "Anime|Dramatic": 78, "Anime|Neon": 92, "Anime|Volumetric": 80, "Anime|Moonlight": 82, "Anime|Candlelight": 45,
+    "Anime|Centered": 85, "Anime|Rule of Thirds": 88, "Anime|Flat Lay": 30, "Anime|Panoramic": 80,
+    "Anime|Serene": 60, "Anime|Dramatic": 82, "Anime|Ethereal": 90, "Anime|Mysterious": 78, "Anime|Melancholic": 72, "Anime|Futuristic": 92, "Anime|Romantic": 75, "Anime|Epic": 88,
+    "Anime|Vibrant": 92, "Anime|Muted": 45, "Anime|Pastel": 95, "Anime|Monochrome": 55, "Anime|Earth Tones": 25, "Anime|Neon/Cyber": 95, "Anime|Warm Tones": 55, "Anime|Cool Tones": 78,
+
+    "Oil Painting|Digital Art": 55, "Oil Painting|Photography": 15, "Oil Painting|Charcoal": 78, "Oil Painting|Ink Drawing": 55, "Oil Painting|Acrylic": 92, "Oil Painting|Mixed Media": 72,
+    "Oil Painting|Golden Hour": 92, "Oil Painting|Blue Hour": 55, "Oil Painting|Studio": 78, "Oil Painting|Dramatic": 90, "Oil Painting|Neon": 15, "Oil Painting|Volumetric": 55, "Oil Painting|Moonlight": 72, "Oil Painting|Candlelight": 95,
+    "Oil Painting|Centered": 90, "Oil Painting|Rule of Thirds": 88, "Oil Painting|Flat Lay": 65, "Oil Painting|Panoramic": 50,
+    "Oil Painting|Serene": 85, "Oil Painting|Dramatic": 92, "Oil Painting|Ethereal": 55, "Oil Painting|Mysterious": 88, "Oil Painting|Melancholic": 90, "Oil Painting|Futuristic": 10, "Oil Painting|Romantic": 92, "Oil Painting|Epic": 85,
+    "Oil Painting|Vibrant": 78, "Oil Painting|Muted": 88, "Oil Painting|Pastel": 40, "Oil Painting|Monochrome": 75, "Oil Painting|Earth Tones": 95, "Oil Painting|Neon/Cyber": 10, "Oil Painting|Warm Tones": 92, "Oil Painting|Cool Tones": 45,
+
+    "Watercolor|Digital Art": 65, "Watercolor|Photography": 15, "Watercolor|Charcoal": 60, "Watercolor|Ink Drawing": 82, "Watercolor|Acrylic": 78, "Watercolor|Mixed Media": 80,
+    "Watercolor|Golden Hour": 88, "Watercolor|Blue Hour": 82, "Watercolor|Studio": 72, "Watercolor|Dramatic": 45, "Watercolor|Neon": 15, "Watercolor|Volumetric": 50, "Watercolor|Moonlight": 78, "Watercolor|Candlelight": 82,
+    "Watercolor|Centered": 85, "Watercolor|Rule of Thirds": 88, "Watercolor|Flat Lay": 80, "Watercolor|Panoramic": 75,
+    "Watercolor|Serene": 95, "Watercolor|Dramatic": 35, "Watercolor|Ethereal": 95, "Watercolor|Mysterious": 55, "Watercolor|Melancholic": 82, "Watercolor|Futuristic": 12, "Watercolor|Romantic": 92, "Watercolor|Epic": 40,
+    "Watercolor|Vibrant": 65, "Watercolor|Muted": 82, "Watercolor|Pastel": 95, "Watercolor|Monochrome": 55, "Watercolor|Earth Tones": 82, "Watercolor|Neon/Cyber": 10, "Watercolor|Warm Tones": 85, "Watercolor|Cool Tones": 78,
+
+    "Concept Art|Digital Art": 95, "Concept Art|Photography": 25, "Concept Art|Charcoal": 40, "Concept Art|Ink Drawing": 72, "Concept Art|Acrylic": 55, "Concept Art|Mixed Media": 78,
+    "Concept Art|Golden Hour": 78, "Concept Art|Blue Hour": 82, "Concept Art|Studio": 55, "Concept Art|Dramatic": 92, "Concept Art|Neon": 85, "Concept Art|Volumetric": 92, "Concept Art|Moonlight": 80, "Concept Art|Candlelight": 50,
+    "Concept Art|Centered": 78, "Concept Art|Rule of Thirds": 90, "Concept Art|Flat Lay": 20, "Concept Art|Panoramic": 88,
+    "Concept Art|Serene": 45, "Concept Art|Dramatic": 92, "Concept Art|Ethereal": 78, "Concept Art|Mysterious": 90, "Concept Art|Melancholic": 72, "Concept Art|Futuristic": 88, "Concept Art|Romantic": 40, "Concept Art|Epic": 95,
+    "Concept Art|Vibrant": 82, "Concept Art|Muted": 78, "Concept Art|Pastel": 25, "Concept Art|Monochrome": 72, "Concept Art|Earth Tones": 65, "Concept Art|Neon/Cyber": 85, "Concept Art|Warm Tones": 60, "Concept Art|Cool Tones": 82,
+
+    "3D Render|Digital Art": 95, "3D Render|Photography": 30, "3D Render|Charcoal": 10, "3D Render|Ink Drawing": 15, "3D Render|Acrylic": 12, "3D Render|Mixed Media": 55,
+    "3D Render|Golden Hour": 72, "3D Render|Blue Hour": 78, "3D Render|Studio": 90, "3D Render|Dramatic": 88, "3D Render|Neon": 92, "3D Render|Volumetric": 95, "3D Render|Moonlight": 65, "3D Render|Candlelight": 35,
+    "3D Render|Centered": 85, "3D Render|Rule of Thirds": 88, "3D Render|Flat Lay": 40, "3D Render|Panoramic": 82,
+    "3D Render|Serene": 55, "3D Render|Dramatic": 85, "3D Render|Ethereal": 55, "3D Render|Mysterious": 78, "3D Render|Melancholic": 40, "3D Render|Futuristic": 95, "3D Render|Romantic": 30, "3D Render|Epic": 88,
+    "3D Render|Vibrant": 82, "3D Render|Muted": 65, "3D Render|Pastel": 30, "3D Render|Monochrome": 72, "3D Render|Earth Tones": 30, "3D Render|Neon/Cyber": 95, "3D Render|Warm Tones": 55, "3D Render|Cool Tones": 85,
+
+    "Minimalist|Digital Art": 85, "Minimalist|Photography": 88, "Minimalist|Charcoal": 55, "Minimalist|Ink Drawing": 82, "Minimalist|Acrylic": 35, "Minimalist|Mixed Media": 50,
+    "Minimalist|Golden Hour": 72, "Minimalist|Blue Hour": 78, "Minimalist|Studio": 95, "Minimalist|Dramatic": 40, "Minimalist|Neon": 25, "Minimalist|Volumetric": 35, "Minimalist|Moonlight": 55, "Minimalist|Candlelight": 45,
+    "Minimalist|Centered": 95, "Minimalist|Rule of Thirds": 82, "Minimalist|Flat Lay": 92, "Minimalist|Panoramic": 40,
+    "Minimalist|Serene": 95, "Minimalist|Dramatic": 30, "Minimalist|Ethereal": 82, "Minimalist|Mysterious": 65, "Minimalist|Melancholic": 72, "Minimalist|Futuristic": 40, "Minimalist|Romantic": 55, "Minimalist|Epic": 20,
+    "Minimalist|Vibrant": 30, "Minimalist|Muted": 95, "Minimalist|Pastel": 85, "Minimalist|Monochrome": 95, "Minimalist|Earth Tones": 55, "Minimalist|Neon/Cyber": 20, "Minimalist|Warm Tones": 55, "Minimalist|Cool Tones": 82,
+
+    "Digital Art|Golden Hour": 78, "Digital Art|Blue Hour": 80, "Digital Art|Studio": 85, "Digital Art|Dramatic": 88, "Digital Art|Neon": 90, "Digital Art|Volumetric": 88, "Digital Art|Moonlight": 78, "Digital Art|Candlelight": 60,
+    "Photography|Golden Hour": 95, "Photography|Blue Hour": 92, "Photography|Studio": 95, "Photography|Dramatic": 88, "Photography|Neon": 72, "Photography|Volumetric": 78, "Photography|Moonlight": 85, "Photography|Candlelight": 80,
+    "Charcoal|Dramatic": 90, "Charcoal|Studio": 85, "Charcoal|Moonlight": 72, "Charcoal|Candlelight": 78, "Charcoal|Golden Hour": 35, "Charcoal|Blue Hour": 40, "Charcoal|Neon": 15, "Charcoal|Volumetric": 45,
+    "Ink Drawing|Dramatic": 85, "Ink Drawing|Studio": 82, "Ink Drawing|Moonlight": 72, "Ink Drawing|Candlelight": 65, "Ink Drawing|Neon": 45, "Ink Drawing|Volumetric": 50, "Ink Drawing|Golden Hour": 55, "Ink Drawing|Blue Hour": 50,
+    "Acrylic|Golden Hour": 85, "Acrylic|Studio": 82, "Acrylic|Dramatic": 78, "Acrylic|Candlelight": 82, "Acrylic|Neon": 20, "Acrylic|Volumetric": 40, "Acrylic|Blue Hour": 45, "Acrylic|Moonlight": 50,
+    "Mixed Media|Golden Hour": 72, "Mixed Media|Blue Hour": 72, "Mixed Media|Studio": 78, "Mixed Media|Dramatic": 80, "Mixed Media|Neon": 75, "Mixed Media|Volumetric": 72, "Mixed Media|Moonlight": 68, "Mixed Media|Candlelight": 65,
+
+    "Golden Hour|Serene": 92, "Golden Hour|Dramatic": 78, "Golden Hour|Ethereal": 82, "Golden Hour|Mysterious": 45, "Golden Hour|Melancholic": 55, "Golden Hour|Futuristic": 20, "Golden Hour|Romantic": 95, "Golden Hour|Epic": 85,
+    "Golden Hour|Vibrant": 82, "Golden Hour|Muted": 65, "Golden Hour|Pastel": 60, "Golden Hour|Monochrome": 40, "Golden Hour|Earth Tones": 92, "Golden Hour|Neon/Cyber": 12, "Golden Hour|Warm Tones": 98, "Golden Hour|Cool Tones": 25,
+
+    "Blue Hour|Serene": 82, "Blue Hour|Dramatic": 55, "Blue Hour|Ethereal": 92, "Blue Hour|Mysterious": 90, "Blue Hour|Melancholic": 92, "Blue Hour|Futuristic": 72, "Blue Hour|Romantic": 78, "Blue Hour|Epic": 60,
+    "Blue Hour|Vibrant": 35, "Blue Hour|Muted": 90, "Blue Hour|Pastel": 55, "Blue Hour|Monochrome": 82, "Blue Hour|Earth Tones": 35, "Blue Hour|Neon/Cyber": 55, "Blue Hour|Warm Tones": 25, "Blue Hour|Cool Tones": 95,
+
+    "Studio|Serene": 72, "Studio|Dramatic": 78, "Studio|Ethereal": 45, "Studio|Mysterious": 65, "Studio|Melancholic": 60, "Studio|Futuristic": 55, "Studio|Romantic": 55, "Studio|Epic": 45,
+    "Studio|Vibrant": 82, "Studio|Muted": 78, "Studio|Pastel": 70, "Studio|Monochrome": 88, "Studio|Earth Tones": 55, "Studio|Neon/Cyber": 45, "Studio|Warm Tones": 72, "Studio|Cool Tones": 75,
+
+    "Dramatic|Dramatic": 95, "Dramatic|Mysterious": 92, "Dramatic|Epic": 95, "Dramatic|Melancholic": 82, "Dramatic|Futuristic": 72, "Dramatic|Serene": 20, "Dramatic|Romantic": 45, "Dramatic|Ethereal": 40,
+    "Dramatic|Vibrant": 78, "Dramatic|Muted": 82, "Dramatic|Monochrome": 90, "Dramatic|Cool Tones": 78, "Dramatic|Warm Tones": 72, "Dramatic|Earth Tones": 68, "Dramatic|Neon/Cyber": 65, "Dramatic|Pastel": 15,
+
+    "Neon|Futuristic": 98, "Neon|Dramatic": 82, "Neon|Mysterious": 85, "Neon|Epic": 78, "Neon|Serene": 10, "Neon|Romantic": 15, "Neon|Ethereal": 30, "Neon|Melancholic": 40,
+    "Neon|Neon/Cyber": 98, "Neon|Vibrant": 85, "Neon|Cool Tones": 82, "Neon|Monochrome": 55, "Neon|Muted": 25, "Neon|Warm Tones": 30, "Neon|Earth Tones": 8, "Neon|Pastel": 10,
+
+    "Volumetric|Epic": 92, "Volumetric|Dramatic": 88, "Volumetric|Ethereal": 90, "Volumetric|Mysterious": 85, "Volumetric|Futuristic": 80, "Volumetric|Melancholic": 55, "Volumetric|Serene": 50, "Volumetric|Romantic": 45,
+    "Volumetric|Muted": 78, "Volumetric|Cool Tones": 80, "Volumetric|Warm Tones": 72, "Volumetric|Monochrome": 72, "Volumetric|Vibrant": 55, "Volumetric|Neon/Cyber": 65, "Volumetric|Earth Tones": 45, "Volumetric|Pastel": 25,
+
+    "Moonlight|Mysterious": 95, "Moonlight|Ethereal": 88, "Moonlight|Melancholic": 90, "Moonlight|Romantic": 82, "Moonlight|Serene": 72, "Moonlight|Dramatic": 65, "Moonlight|Futuristic": 45, "Moonlight|Epic": 55,
+    "Moonlight|Cool Tones": 95, "Moonlight|Muted": 90, "Moonlight|Monochrome": 85, "Moonlight|Neon/Cyber": 35, "Moonlight|Vibrant": 25, "Moonlight|Warm Tones": 25, "Moonlight|Earth Tones": 30, "Moonlight|Pastel": 40,
+
+    "Candlelight|Romantic": 95, "Candlelight|Mysterious": 85, "Candlelight|Melancholic": 80, "Candlelight|Serene": 72, "Candlelight|Dramatic": 55, "Candlelight|Ethereal": 45, "Candlelight|Epic": 35, "Candlelight|Futuristic": 8,
+    "Candlelight|Warm Tones": 95, "Candlelight|Earth Tones": 88, "Candlelight|Muted": 78, "Candlelight|Monochrome": 45, "Candlelight|Vibrant": 40, "Candlelight|Cool Tones": 15, "Candlelight|Neon/Cyber": 5, "Candlelight|Pastel": 30,
+
+    "Centered|Medium Shot": 90, "Centered|Close-Up": 88, "Centered|Wide Shot": 72, "Centered|Low Angle": 78, "Centered|Bird's Eye": 75, "Centered|Dutch Angle": 55, "Centered|Worm's Eye View": 70, "Centered|Extreme Close-Up": 82,
+    "Rule of Thirds|Wide Shot": 92, "Rule of Thirds|Medium Shot": 88, "Rule of Thirds|Close-Up": 82, "Rule of Thirds|Low Angle": 85, "Rule of Thirds|Dutch Angle": 78, "Rule of Thirds|Bird's Eye": 80, "Rule of Thirds|Worm's Eye View": 72, "Rule of Thirds|Extreme Close-Up": 65,
+    "Flat Lay|Bird's Eye": 98, "Flat Lay|Wide Shot": 30, "Flat Lay|Medium Shot": 15, "Flat Lay|Close-Up": 25, "Flat Lay|Low Angle": 5, "Flat Lay|Dutch Angle": 10, "Flat Lay|Worm's Eye View": 5, "Flat Lay|Extreme Close-Up": 40,
+    "Panoramic|Wide Shot": 95, "Panoramic|Bird's Eye": 82, "Panoramic|Low Angle": 78, "Panoramic|Medium Shot": 30, "Panoramic|Close-Up": 10, "Panoramic|Dutch Angle": 45, "Panoramic|Worm's Eye View": 55, "Panoramic|Extreme Close-Up": 8,
+
+    "Worm's Eye View|24mm Wide": 85, "Worm's Eye View|50mm Normal": 55, "Worm's Eye View|Fisheye": 78, "Worm's Eye View|85mm Portrait": 30, "Worm's Eye View|135mm Telephoto": 25, "Worm's Eye View|Macro": 15,
+    "Dutch Angle|24mm Wide": 82, "Dutch Angle|50mm Normal": 72, "Dutch Angle|85mm Portrait": 55, "Dutch Angle|135mm Telephoto": 45, "Dutch Angle|Fisheye": 72, "Dutch Angle|Macro": 20,
+    "Bird's Eye|24mm Wide": 88, "Bird's Eye|50mm Normal": 72, "Bird's Eye|Fisheye": 55, "Bird's Eye|Macro": 65, "Bird's Eye|85mm Portrait": 30, "Bird's Eye|135mm Telephoto": 35,
+    "Extreme Close-Up|Macro": 98, "Extreme Close-Up|85mm Portrait": 82, "Extreme Close-Up|135mm Telephoto": 78, "Extreme Close-Up|50mm Normal": 55, "Extreme Close-Up|24mm Wide": 15, "Extreme Close-Up|Fisheye": 20,
+    "Wide Shot|24mm Wide": 95, "Wide Shot|50mm Normal": 78, "Wide Shot|Fisheye": 72, "Wide Shot|85mm Portrait": 25, "Wide Shot|135mm Telephoto": 30, "Wide Shot|Macro": 8,
+    "Medium Shot|50mm Normal": 92, "Medium Shot|85mm Portrait": 95, "Medium Shot|135mm Telephoto": 72, "Medium Shot|24mm Wide": 45, "Medium Shot|Macro": 15, "Medium Shot|Fisheye": 15,
+    "Close-Up|85mm Portrait": 95, "Close-Up|135mm Telephoto": 88, "Close-Up|Macro": 78, "Close-Up|50mm Normal": 72, "Close-Up|24mm Wide": 20, "Close-Up|Fisheye": 12,
+    "Low Angle|24mm Wide": 88, "Low Angle|50mm Normal": 78, "Low Angle|85mm Portrait": 55, "Low Angle|135mm Telephoto": 60, "Low Angle|Fisheye": 65, "Low Angle|Macro": 10,
+
+    "Serene|Muted": 90, "Serene|Pastel": 88, "Serene|Cool Tones": 82, "Serene|Earth Tones": 78, "Serene|Warm Tones": 72, "Serene|Vibrant": 35, "Serene|Monochrome": 65, "Serene|Neon/Cyber": 8,
+    "Dramatic|Vibrant": 78, "Dramatic|Monochrome": 92, "Dramatic|Cool Tones": 82, "Dramatic|Muted": 85, "Dramatic|Warm Tones": 72, "Dramatic|Earth Tones": 65, "Dramatic|Neon/Cyber": 72, "Dramatic|Pastel": 12,
+    "Ethereal|Pastel": 95, "Ethereal|Cool Tones": 88, "Ethereal|Muted": 85, "Ethereal|Monochrome": 65, "Ethereal|Vibrant": 35, "Ethereal|Warm Tones": 45, "Ethereal|Earth Tones": 35, "Ethereal|Neon/Cyber": 30,
+    "Mysterious|Monochrome": 88, "Mysterious|Cool Tones": 90, "Mysterious|Muted": 92, "Mysterious|Earth Tones": 65, "Mysterious|Vibrant": 30, "Mysterious|Warm Tones": 35, "Mysterious|Neon/Cyber": 55, "Mysterious|Pastel": 10,
+    "Melancholic|Muted": 95, "Melancholic|Cool Tones": 88, "Melancholic|Monochrome": 85, "Melancholic|Earth Tones": 72, "Melancholic|Warm Tones": 45, "Melancholic|Vibrant": 15, "Melancholic|Neon/Cyber": 20, "Melancholic|Pastel": 35,
+    "Futuristic|Neon/Cyber": 98, "Futuristic|Cool Tones": 88, "Futuristic|Vibrant": 72, "Futuristic|Monochrome": 65, "Futuristic|Muted": 35, "Futuristic|Warm Tones": 20, "Futuristic|Earth Tones": 8, "Futuristic|Pastel": 15,
+    "Romantic|Warm Tones": 95, "Romantic|Pastel": 90, "Romantic|Vibrant": 65, "Romantic|Muted": 72, "Romantic|Earth Tones": 55, "Romantic|Cool Tones": 35, "Romantic|Monochrome": 40, "Romantic|Neon/Cyber": 8,
+    "Epic|Vibrant": 92, "Epic|Warm Tones": 78, "Epic|Cool Tones": 78, "Epic|Monochrome": 82, "Epic|Muted": 55, "Epic|Earth Tones": 65, "Epic|Neon/Cyber": 72, "Epic|Pastel": 12
+  },
+  "_meta": {
+    "version": "1.0",
+    "description": "Pair-based compatibility scores for all style configurations. Score 0-100 where 85+ = Best Match, 65-84 = Great Fit, 40-64 = Neutral, 0-39 = Clash. Keys are 'LabelA|LabelB'. Unlisted pairs default to 50.",
+    "thresholds": {
+      "best": 85,
+      "great": 65,
+      "clash": 40
+    }
+  }
+}
