@@ -290,3 +290,33 @@ try:
 except Exception:
     pass
 
+
+
+class Organization(Base):
+    """Organization workspace and team tenant model"""
+    __tablename__ = "organizations"
+
+    id = Column(String(36), primary_key=True, default=generate_uuid)
+    name = Column(String(255), nullable=False)
+    slug = Column(String(100), unique=True, nullable=False, index=True)
+    owner_id = Column(String(36), ForeignKey("users.id"), nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    settings = Column(JSON, default=dict)
+    is_active = Column(Boolean, default=True)
+
+    owner = relationship("User", backref="organizations")
+
+
+class OrganizationMember(Base):
+    """Organization membership and role assignments"""
+    __tablename__ = "organization_members"
+
+    id = Column(String(36), primary_key=True, default=generate_uuid)
+    organization_id = Column(String(36), ForeignKey("organizations.id", ondelete="CASCADE"), nullable=False)
+    user_id = Column(String(36), ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    role = Column(String(50), default="member", nullable=False)  # owner, admin, member, viewer
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint("organization_id", "user_id", name="uq_org_user"),
+    )

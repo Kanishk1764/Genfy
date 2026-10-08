@@ -560,3 +560,8 @@ pool_pre_ping = True     # health check before each use
 # SQLite fallback (local dev only)
 # DATABASE_URL = "sqlite:///./genfy.db"
 ```
+
+### Organizations & Workspaces
+- `organizations`: Multi-tenant organization accounts with custom domain slugs, tier limits, and workspace settings.
+- `organization_members`: Role-based team access controls (`owner`, `admin`, `member`, `viewer`).
+- Connection pooling upgraded to `pool_size=15, max_overflow=25, pool_recycle=1800` to resolve connection pool exhaustion under high concurrency.

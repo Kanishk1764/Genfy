@@ -58,12 +58,22 @@ if _IS_SQLITE:
         cursor.execute("PRAGMA busy_timeout=60000")
         cursor.close()
 else:
+    # Resolve connection pool exhaustion under concurrent burst load:
+    # - pool_size increased to 15 with max_overflow=25
+    # - pool_recycle=1800 prevents stale connection drops from Supabase/PgBouncer
+    # - pool_timeout=30 ensures requests fail fast instead of hanging indefinitely
+    # - statement_timeout=60000 terminates runaway queries
     engine = create_engine(
         DATABASE_URL,
         echo=False,
         pool_pre_ping=True,
-        pool_size=5,
-        max_overflow=10,
+        pool_size=15,
+        max_overflow=25,
+        pool_recycle=1800,
+        pool_timeout=30,
+        connect_args={
+            "options": "-c statement_timeout=60000"
+        }
     )
 
     # ── Schema isolation: set search_path on every new connection ──────────
